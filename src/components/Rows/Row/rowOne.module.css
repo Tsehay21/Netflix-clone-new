@@ -5,12 +5,12 @@
   transition: transform 450ms;
   margin-right: 10px;
 }
-/* .row_posters {
+.row_posters {
   display: flex;
   overflow-y: hidden;
   overflow-x: scroll;
   padding: 20px;
-} */
+}
 .row_posters::-webkit-scrollbar {
   display: none;
 }
@@ -20,9 +20,9 @@
 .row_posterLarge {
   max-height: 250px;
 }
-/* .row_posterLarge:hover {
+.row_posterLarge:hover {
   transform: scale(1.09);
-} */
+}
 .row {
   margin-left: 20px;
   color: #fff;
@@ -33,19 +33,19 @@
   margin-left: 20px;
   color: white;
 } */
-
+/* 
 .row h1 {
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 20px;
-}
+} */
 
-.row_posters {
+/* .row_posters {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
   justify-content: flex-start;
-}
+} */
 
 /* .row_poster {
   width: 200px;
@@ -56,35 +56,35 @@
 } */
 
 /* Only Netflix Originals row will have larger posters */
-.row_posterLarge {
+/* .row_posterLarge {
   width: 250px;
   height: 350px;
-}
+} */
 
 /* Hover effect for all rows */
-.row_poster:hover {
+/* .row_poster:hover {
   transform: scale(1.1);
-}
+} */
 
 /* Media queries for responsiveness */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .row_posters {
     justify-content: center;
-  }
+  } */
 
-  /* .row_poster {
+/* .row_poster {
     width: 150px;
     height: 220px;
   } */
 
-  /* Larger posters only for Netflix Originals row */
-  .row_posterLarge {
+/* Larger posters only for Netflix Originals row */
+/* .row_posterLarge {
     width: 180px;
     height: 250px;
   }
-}
+} */
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
   .row h1 {
     font-size: 1.2rem;
   }
@@ -92,11 +92,11 @@
   .row_poster {
     width: 120px;
     height: 180px;
-  }
+  } */
 
-  /* Larger posters only for Netflix Originals row */
-  .row_posterLarge {
+/* Larger posters only for Netflix Originals row */
+/* .row_posterLarge {
     width: 150px;
     height: 220px;
   }
-}
+} */
