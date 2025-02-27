@@ -47,3 +47,9 @@
   max-width: 360px;
   height: 80px;
 }
+
+@media (max-width:768px){
+  .banner{
+    background-position: center;
+  }
+}

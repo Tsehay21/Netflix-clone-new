@@ -1,73 +1,44 @@
-.header_outer_container {
+header-outer-container 
+.header-outer-container {
   position: sticky;
   top: 0;
   display: flex;
   justify-content: center;
   align-items: center;
+  /* background-color: rgb(148, 132, 132); */
   background-color: rgb(20, 20, 20);
+  background-color: transparent;
   height: 10vh;
-  color: #fff;
+  color: white;
   transition: all 0.5s;
   transition-timing-function: ease-in;
   z-index: 1;
 }
-
-.nav__black {
+.nav_black {
   background-color: rgb(20, 20, 20);
 }
-
-.header_container {
+/* Header container */
+.header-container {
   width: 90%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+/* Header Left */
 
-.header_left ul {
+.header-left ul {
   width: 140%;
+  list-style: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  list-style: none;
   cursor: pointer;
 }
-
-.header_right ul {
+/* Header right */
+.header-right ul {
+  gap: 15px;
+  list-style: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  list-style: none;
-  cursor: pointer;
-}
-
-.header_right ul li {
-  margin-left: 10px;
-}
-
-/* For Small Screens (max-width: 768px) */
-@media (max-width: 768px) {
-  .header_right ul {
-    display: none; /* Hide icons */
-  }
-
-  .header_right.toggle ul {
-    display: flex; /* Show icons when toggled */
-  }
-
-  .toggle-button {
-    display: block; /* Show hamburger menu */
-    cursor: pointer;
-    padding: 10px;
-  }
-
-  .header_right {
-    position: relative;
-  }
-}
-
-/* For Large Screens (min-width: 769px) */
-@media (min-width: 769px) {
-  .toggle-button {
-    display: none; /* Hide hamburger menu on larger screens */
-  }
 }
